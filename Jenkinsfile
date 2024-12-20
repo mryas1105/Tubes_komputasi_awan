@@ -1,5 +1,6 @@
 pipeline {
     agent any
+<<<<<<< HEAD
 
     environment {
         DISCORD_WEBHOOK_URL = 'https://discordapp.com/api/webhooks/1319572452438839307/yVvnw9jlcUMmuKh3w3tmPnDqKUP-h7rL58_ljjzQnFf92Wg7-lRrlURNH4lJb7qTJlwR' // Ganti dengan URL webhook yang kamu dapatkan
@@ -53,6 +54,12 @@ pipeline {
                     contentType  : 'APPLICATION_JSON',
                     requestBody  : groovy.json.JsonOutput.toJson(message)
                 )
+=======
+    stages {
+        stage("hello") {
+            steps {
+                echo "my jenkins pipeline"
+>>>>>>> 82d16f376a59ec543264e3568d29a55105ba27b0
             }
         }
     }
