@@ -174,7 +174,7 @@ if (isset($_GET['brand'])) {
 
 
 
-                                            <p class="showcase-badge">TESTING</p>
+                                            <!-- <p class="showcase-badge">TESTING</p> -->
                                             <div href="detail_mobil.php?id=<?= $fetch_mobil['id']; ?>" class="showcase-actions">
 
                                                 <a href="detail_mobil.php?id=<?= $fetch_mobil['id']; ?>" class="btn-action">

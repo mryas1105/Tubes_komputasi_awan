@@ -76,7 +76,7 @@ if (isset($_POST["search"])) {
 
                 <div class="slider-item">
 
-                    <img src="./uploads/2019-lexus.jpg" alt="Jawir Cars" class="banner-img">
+                    <img src="./uploads/Screenshot 2024-12-22 171310.png" alt="Jawir Cars" class="banner-img">
 
                     <div class="banner-content">
 
@@ -205,7 +205,7 @@ if (isset($_POST["search"])) {
 
 
 
-                                            <p class="showcase-badge">TESTING</p>
+                                            <!-- <p class="showcase-badge">TESTING</p> -->
                                             <div href="detail_mobil.php?id=<?= $fetch_mobil['id']; ?>" class="showcase-actions">
 
                                                 <a href="detail_mobil.php?id=<?= $fetch_mobil['id']; ?>" class="btn-action">
