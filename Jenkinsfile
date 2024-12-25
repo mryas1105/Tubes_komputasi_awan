@@ -55,6 +55,7 @@ pipeline {
                     httpMode    : 'POST',
                     contentType : 'APPLICATION_JSON',
                     requestBody : groovy.json.JsonOutput.toJson(message)
+                    
                 )
             }
         }
