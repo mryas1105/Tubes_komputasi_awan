@@ -74,7 +74,7 @@ if (isset($_POST["search"])) {
                 <div class="header-alert-news">
                     <p>
                        
-                        KETINTANG - WONOKROMO
+                    Jl. Ketintang Brt. No.78, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur 60231
                     </p>
                 </div>
                 <div class="header-top-actions">
