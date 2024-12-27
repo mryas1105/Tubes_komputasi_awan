@@ -81,13 +81,13 @@ if (isset($_POST['update'])) {
 
 <body>
     <div class="container">
-        <h1>Edit Data Mobil</h1>
+        <h1>Edit Data Motor</h1>
 
         <!-- Tabel untuk menampilkan data mobil -->
         <table border="1">
             <tr>
                 <th>ID</th>
-                <th>Nama Mobil</th>
+                <th>Nama Motor</th>
                 <th>Merek</th>
                 <th>Model</th>
                 <th>Tahun</th>
@@ -108,7 +108,7 @@ if (isset($_POST['update'])) {
             <fieldset>
                 <legend>Edit Data</legend>
                 <p>
-                    <label for="nama_mobil_baru">Nama Mobil Baru: </label>
+                    <label for="nama_mobil_baru">Nama Motor Baru: </label>
                     <input type="text" name="nama_mobil_baru" id="nama_mobil_baru" value="<?php echo $row_edit['nama_mobil']; ?>" required>
                 </p>
                 <p>
@@ -120,7 +120,7 @@ if (isset($_POST['update'])) {
                     <input type="text" name="model_baru" id="model_baru" value="<?php echo $row_edit['model']; ?>" required>
                 </p>
                 <p>
-                    <label for="tahun_mobil_baru">Tahun Mobil Baru: </label>
+                    <label for="tahun_mobil_baru">Tahun Motor Baru: </label>
                     <input type="text" name="tahun_mobil_baru" id="tahun_mobil_baru" value="<?php echo $row_edit['tahun']; ?>" required>
                 </p>
                 <p>
@@ -135,7 +135,7 @@ if (isset($_POST['update'])) {
                     </select>
                 </p>
                 <p>
-                    <label for="gambar_mobil">Gambar Mobil Baru: </label>
+                    <label for="gambar_mobil">Gambar Motor Baru: </label>
                     <input type="file" name="gambar_mobil" id="gambar_mobil" accept="image/*">
                 </p>
                 <input type="submit" name="update" value="Update">

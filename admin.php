@@ -143,11 +143,11 @@ if (!$result_mobil) {
             <fieldset>
                 <legend>Tambah Data Baru</legend>
                 <p>
-                    <label for="id_mobil_baru">ID Mobil Baru: </label>
+                    <label for="id_mobil_baru">ID Motor Baru: </label>
                     <input type="text" name="id_mobil_baru" id="id_mobil_baru" required>
                 </p>
                 <p>
-                    <label for="nama_mobil_baru">Nama Mobil Baru: </label>
+                    <label for="nama_mobil_baru">Nama Motor Baru: </label>
                     <input type="text" name="nama_mobil_baru" id="nama_mobil_baru" required>
                 </p>
                 <p>
@@ -159,11 +159,11 @@ if (!$result_mobil) {
                     <input type="text" name="model_baru" id="model_baru" required>
                 </p>
                 <p>
-                    <label for="tahun_mobil_baru">Tahun Mobil Baru: </label>
+                    <label for="tahun_mobil_baru">Tahun Motor Baru: </label>
                     <input type="text" name="tahun_mobil_baru" id="tahun_mobil_baru" required>
                 </p>
                 <p>
-                    <label for="gambar_mobil">Gambar Mobil: </label>
+                    <label for="gambar_mobil">Gambar Motor: </label>
                     <input type="file" name="gambar_mobil" id="gambar_mobil" accept="image/*" required>
                 </p>
                 <p>
@@ -211,7 +211,7 @@ if (!$result_mobil) {
 <table border="1">
     <tr>
         <th>ID</th>
-        <th>Nama Mobil</th>
+        <th>Nama Motor</th>
         <th>Merek</th>
         <th>Model</th>
         <th>Tahun</th>
@@ -240,7 +240,7 @@ if (!$result_mobil) {
 
 
         <!-- Tabel untuk menampilkan data pembelian -->
-        <h2>Data Pembelian</h2>
+        <!-- <h2>Data Pembelian</h2>
         <table border="1">
             <tr>
                 <th>ID Pembelian</th>
@@ -258,7 +258,7 @@ if (!$result_mobil) {
                     <td><?php echo $row_pembelian['nama_mobil']; ?></td>
                 </tr>
             <?php } ?>
-        </table>
+        </table> -->
         <!-- Formulir untuk logout -->
         <form action="admin.php" method="post">
             <input type="submit" name="logout" value="Logout">
